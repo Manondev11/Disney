@@ -7,14 +7,11 @@ a{
     text-decoration: none;
 }
 body{
-    background-color: whitesmoke;
+    background-color: #f1f2f3;
 }
-a:hover{color: blue;} /*quand on survole un lien*/
-a:visited{color: black;} /*quand on a visité un lien*/
-a:active{color: black;} /*quand on clique sur un lien*/
-a:link{color: black;} 
+
 .logo{
-    width: 90px;
+    width: 100px;
 }
 .myheader{
     display: flex;
@@ -48,7 +45,10 @@ a:link{color: black;}
   display: flex;
   justify-content: center;
 }
-
+.hulu:hover{
+    transition: transform 400ms;
+    transform: scale(1.03);
+}
 .contentBody {
   position: relative;
   top:-86%; 
@@ -91,7 +91,7 @@ a:link{color: black;}
     display: flex;
     justify-content: center;
     gap:50px;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 .castel{
     display: flex;
@@ -120,7 +120,6 @@ a:link{color: black;}
 .cerise{
     display: flex;
     flex-direction: column;
-    align-items: ;
     background-color: white;
     width: 315px;
     gap: 30px;
@@ -204,12 +203,12 @@ a:link{color: black;}
 }
 .parcs{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 60px;
 }
 .parc-line{
     display: flex;
     justify-content: center;
-    gap:50px;
+    gap:30px;
     margin-top: 20px;
 }
 .disney-ad{
@@ -237,11 +236,136 @@ a:link{color: black;}
     gap: 16px;
     height: 651px;
 }
-.
-.spectacles{
+
+.title-spectacle{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.spectacle-container{
     display: flex;
     justify-content: center;
-    gap:50px;
-    margin-top: 20px;
+    gap: 15px;
+    font-family: Helvetica, sans-serif;
+    font-size: 13px;
+}
+.event{
+    font-weight: 400;
+}
+.spectacle{
+    background-color: white;
+}
+.boutique{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: Helvetica, sans-serif;
+}
+.container-boutique{
+    position: relative;
+    display: block;
+    z-index: 1;
+    cursor: pointer;
+    margin: 0 auto;
+    width: fit-content;
 }
 
+.text-container1{
+    position: absolute;
+    width: 400px;
+    margin-left: 100px;
+    max-width: 36%;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    color: white;
+    font-family: Helvetica, sans-serif;
+}
+.container:hover{
+    transition: transform 400ms;
+    transform: scale(1.03);
+}
+.films{
+    margin: 0 auto;
+    gap: 20px;
+}
+.film-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 20px;
+}
+.title-films{
+    text-align: center;
+    margin-top: 60px;
+}
+.title-news{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+.container-news{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.text-container-news{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+    width: 33%;
+}
+.btn-news{
+    background-color: white;
+    width: 400px;
+    font-size: 20px;
+    padding: 10px;
+    gap: 60px;
+    border-radius: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+.imgnews:hover{
+    transition: transform 400ms;
+    transform: scale(1.03);
+}
+footer{
+    background-color: white;
+
+}
+.footer-social{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.footer-link ul{
+    padding-top: 16px;
+    text-align: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 15px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo-nav{
+    width: 5%;
+    margin: 0 auto;
+}
+.footer-bottom{
+    margin-top: 15px;
+    text-align: center;
+}
