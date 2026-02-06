@@ -41,7 +41,7 @@ body{
 .hulu {
   position: relative; 
   z-index: 1;
-  width: 70%;    
+  width: 80%;    
   margin: 0 auto;
   display: flex;
   justify-content: center;
@@ -55,7 +55,7 @@ body{
 }
 .contentBody {
   position: relative;
-  top:-86%; 
+  top:-70%; 
   left:55%;
   z-index: 10;
   color: white;
@@ -66,7 +66,7 @@ body{
 .text{
    display: flex;
    flex-direction: column;
-   width: 500px;
+   width: 25%;
    font-size: 15px;
    font-family: Helvetica, sans-serif;
    gap: 50px;
@@ -88,7 +88,7 @@ body{
     align-items: end;
 }
 .blows{
-    width: 500px;
+    width: 25%;
 }
 .sdline{
     display: flex;
